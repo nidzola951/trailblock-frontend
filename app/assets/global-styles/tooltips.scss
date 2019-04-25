@@ -1,0 +1,234 @@
+/*!
+ * Copyright Zendesk, Inc.
+ *
+ * Use of this source code is governed under the Apache License, Version 2.0
+ * found at http://www.apache.org/licenses/LICENSE-2.0
+ */
+.index__c-arrow___cuUSh {
+  position: relative
+}
+
+.index__c-arrow___cuUSh:before {
+  border: inherit;
+  border-color: transparent;
+  background-clip: content-box
+}
+
+.index__c-arrow___cuUSh:after {
+  z-index: -1;
+  border: inherit;
+  -webkit-box-shadow: inherit;
+  box-shadow: inherit
+}
+
+.index__c-arrow___cuUSh:after, .index__c-arrow___cuUSh:before {
+  position: absolute;
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+  background-color: inherit;
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+  width: .85714em;
+  height: .85714em;
+  content: ""
+}
+
+.index__c-arrow--t___1ZWKF:before, .index__c-arrow--tl___322NF:before, .index__c-arrow--tr___MeaCx:before {
+  border-bottom-right-radius: 100%;
+  -webkit-clip-path: polygon(100% 0, 100% 1px, 1px 100%, 0 100%, 0 0);
+  clip-path: polygon(100% 0, 100% 1px, 1px 100%, 0 100%, 0 0)
+}
+
+.index__c-arrow--t___1ZWKF:after, .index__c-arrow--t___1ZWKF:before {
+  top: -.42857em;
+  left: 50%;
+  margin-left: -.42857em
+}
+
+.index__c-arrow--tl___322NF:after, .index__c-arrow--tl___322NF:before {
+  top: -.42857em;
+  left: .85714em
+}
+
+.index__c-arrow--tr___MeaCx:after, .index__c-arrow--tr___MeaCx:before {
+  top: -.42857em;
+  right: .85714em
+}
+
+.index__c-arrow--r___1QMUz:before, .index__c-arrow--rb___1HzLl:before, .index__c-arrow--rt___1e89v:before {
+  border-bottom-left-radius: 100%;
+  -webkit-clip-path: polygon(100% 0, 100% 100%, calc(100% - 1px) 100%, 0 1px, 0 0);
+  clip-path: polygon(100% 0, 100% 100%, calc(100% - 1px) 100%, 0 1px, 0 0)
+}
+
+.index__c-arrow--rt___1e89v:after, .index__c-arrow--rt___1e89v:before {
+  top: .85714em;
+  right: -.42857em
+}
+
+.index__c-arrow--r___1QMUz:after, .index__c-arrow--r___1QMUz:before {
+  top: 50%;
+  right: -.42857em;
+  margin-top: -.42857em
+}
+
+.index__c-arrow--rb___1HzLl:after, .index__c-arrow--rb___1HzLl:before {
+  right: -.42857em;
+  bottom: .85714em
+}
+
+.index__c-arrow--l___1UW5e:before, .index__c-arrow--lb___1femU:before, .index__c-arrow--lt___uMq77:before {
+  border-top-right-radius: 100%;
+  -webkit-clip-path: polygon(0 100%, 100% 100%, 100% calc(100% - 1px), 1px 0, 0 0);
+  clip-path: polygon(0 100%, 100% 100%, 100% calc(100% - 1px), 1px 0, 0 0)
+}
+
+.index__c-arrow--lt___uMq77:after, .index__c-arrow--lt___uMq77:before {
+  top: .85714em;
+  left: -.42857em
+}
+
+.index__c-arrow--l___1UW5e:after, .index__c-arrow--l___1UW5e:before {
+  top: 50%;
+  left: -.42857em;
+  margin-top: -.42857em
+}
+
+.index__c-arrow--lb___1femU:after, .index__c-arrow--lb___1femU:before {
+  bottom: .85714em;
+  left: -.42857em
+}
+
+.index__c-arrow--b___31z-F:before, .index__c-arrow--bl___Yjbqb:before, .index__c-arrow--br___2cmY-:before {
+  border-top-left-radius: 100%;
+  -webkit-clip-path: polygon(100% 0, calc(100% - 1px) 0, 0 calc(100% - 1px), 0 100%, 100% 100%);
+  clip-path: polygon(100% 0, calc(100% - 1px) 0, 0 calc(100% - 1px), 0 100%, 100% 100%)
+}
+
+.index__c-arrow--b___31z-F:after, .index__c-arrow--b___31z-F:before {
+  bottom: -.42857em;
+  left: 50%;
+  margin-left: -.42857em
+}
+
+.index__c-arrow--bl___Yjbqb:after, .index__c-arrow--bl___Yjbqb:before {
+  bottom: -.42857em;
+  left: .85714em
+}
+
+.index__c-arrow--br___2cmY-:after, .index__c-arrow--br___2cmY-:before {
+  right: .85714em;
+  bottom: -.42857em
+}
+
+.index__c-tooltip___WMDsn {
+  display: inline-block;
+  box-sizing: border-box;
+  border-radius: 2px;
+  box-shadow: 0 4px 8px 0 rgba(4, 68, 77, .15);
+  background-color: #092232;
+  max-width: 300px;
+  padding: 1em;
+  line-height: 1.2;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 400;
+  z-index: 100000;
+  a {
+    color: white;
+  }
+}
+
+.index__c-tooltip___WMDsn.index__c-arrow___3WD9K:after, .index__c-tooltip___WMDsn.index__c-arrow___3WD9K:before {
+  font-size: 7px
+}
+
+.index__c-tooltip--extra-large___qP957 {
+  border-radius: 4px;
+  padding: 40px;
+  max-width: 460px;
+  word-wrap: break-word;
+  line-height: 1.42857;
+  white-space: normal;
+  font-size: 14px
+}
+
+.index__c-tooltip--extra-large___qP957.index__c-arrow___3WD9K:after, .index__c-tooltip--extra-large___qP957.index__c-arrow___3WD9K:before {
+  font-size: 16px
+}
+
+.index__c-tooltip--large___1Uvk6 {
+  border-radius: 4px;
+  padding: 20px;
+  max-width: 270px;
+  word-wrap: break-word;
+  line-height: 1.42857;
+  white-space: normal;
+  font-size: 14px
+}
+
+.index__c-tooltip--large___1Uvk6.index__c-arrow___3WD9K:after, .index__c-tooltip--large___1Uvk6.index__c-arrow___3WD9K:before {
+  font-size: 12px
+}
+
+.index__c-tooltip--medium___yU6Fh {
+  border-radius: 4px;
+  padding: 1em;
+  max-width: 140px;
+  word-wrap: break-word;
+  line-height: 1.33333;
+  white-space: normal
+}
+
+.index__c-tooltip__paragraph___2g87i {
+  margin: 0
+}
+
+.index__c-tooltip__title___9DRRo {
+  display: none;
+  margin: 0;
+  font-weight: 600
+}
+
+.index__c-tooltip--large___1Uvk6 .index__c-tooltip__paragraph___2g87i {
+  margin-top: 8px
+}
+
+.index__c-tooltip--extra-large___qP957 .index__c-tooltip__paragraph___2g87i {
+  margin-top: 10px
+}
+
+.index__c-tooltip--extra-large___qP957 .index__c-tooltip__title___9DRRo, .index__c-tooltip--large___1Uvk6 .index__c-tooltip__title___9DRRo {
+  display: block
+}
+
+.index__c-tooltip___WMDsn.index__is-rtl___3pWaV {
+  direction: rtl
+}
+
+.index__c-tooltip--light___3HyTy {
+  border: 1px solid #d8dcde;
+  box-shadow: 0 12px 20px 0 rgba(4, 68, 77, .15);
+  background-color: #fff;
+  color: #49545c
+}
+
+.index__c-tooltip--light___3HyTy.index__c-arrow___3WD9K:after, .index__c-tooltip--light___3HyTy.index__c-arrow___3WD9K:before {
+  font-size: 9px
+}
+
+.index__c-tooltip--light___3HyTy.index__c-tooltip--large___1Uvk6.index__c-arrow___3WD9K:after, .index__c-tooltip--light___3HyTy.index__c-tooltip--large___1Uvk6.index__c-arrow___3WD9K:before {
+  font-size: 14px
+}
+
+.index__c-tooltip--light___3HyTy.index__c-tooltip--extra-large___qP957.index__c-arrow___3WD9K:after, .index__c-tooltip--light___3HyTy.index__c-tooltip--extra-large___qP957.index__c-arrow___3WD9K:before {
+  font-size: 18px
+}
+
+.index__c-tooltip--light___3HyTy .index__c-tooltip__title___9DRRo {
+  color: #2f3941
+}
+
+.TooltipContainer__TooltipWrapper-mr0hf4-0 {
+  z-index: 10000;
+}
